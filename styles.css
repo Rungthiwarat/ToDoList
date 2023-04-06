@@ -1,0 +1,48 @@
+.container {
+  border: 5px solid gray;
+  border-radius: 5px;
+  background-color: pink;
+  opacity: 0.6;
+  font-size: 30px;
+}
+h1 {
+  background-color: blueviolet;
+
+  margin: 10px;
+  font-family: "Pacifico", cursive;
+  font-size: 50px;
+  color: white;
+}
+#inputBox {
+  width: calc(100%-100px);
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#new-Task {
+  padding: 10px;
+  background-color: blueviolet;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+#new-Task:hover {
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
+}
+#todo-list {
+  list-style-type: none;
+  /*background-color: rgba(138, 43, 226, 0.6);*/
+
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+#todo-list li {
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  color: blueviolet;
+  border-bottom: 2px solid white;
+}
